@@ -35,3 +35,25 @@ Predict an individual's creditworthiness using historical financial data.
 ```bash
 python main.py
 ```
+
+## Screenshots
+
+### Project Structure
+
+![Project Structure](images/project_structure.png)
+
+### Terminal Output
+
+![Terminal Output](images/terminal_output.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+### ROC Curve
+
+![ROC Curve](images/roc_curve.png)
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance.png)

@@ -44,8 +44,11 @@ evaluate(model, X_test, y_test)
 
 importance = model.feature_importances_
 
-plt.figure(figsize=(8.5))
+plt.figure(figsize=(8,5))
 plt.barh(X.columns,importance)
 plt.title("Feature Importance")
 plt.xlabel("Importance")
+plt.ylabel("Features")
+plt.tight_layout()
+plt.savefig("Feature_importance.png")
 plt.show()
